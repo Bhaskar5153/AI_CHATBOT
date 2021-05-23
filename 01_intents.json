@@ -1,0 +1,82 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hello", "Hi", "Hi, ", "Hello there", "Hey there", "hey", "what's up?"],
+      "response": ["Hello, Welcome to ABC bank. How can I help you?", "Hi, Welcome to ABC bank. How can I help you?"],
+      "context": [""]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thank you", "Thank you so much", "thanks", "thank you for help", "thanks a lot", "thank you for the help"],
+      "response": ["Welcome", "You are welcome", "It was pleasure to help", "My pleasure"],
+      "context": [""]
+    },
+    {
+      "tag": "bye",
+      "patterns": ["Bye", "Bye take care", "Good bye", "see you", "See you later", "See you again", "bye bye"],
+      "response": ["Bye take care!", "Bye"],
+      "context": [""]
+    },
+    {
+      "tag": "bank_timings",
+      "patterns": ["What are the bank open hours?", "Is the bank open today?", "When does the bank open in the morning?", "What are the bank working hours?", "what time bank opens?", "what time bank closes?", "what are the closing hours for the bank?", "when does the bank close?"],
+      "response": ["The bank working hours are 9am to 6pm IST, Monday to Friday"],
+      "context": [""]
+    },
+    {
+      "tag": "open_bank_account",
+      "patterns": ["I would to like to open new account", "Can I open a new bank account?", "can I request for new account?", "I want to open a new bank account", "I need to open a new bank account", "Please open new bank account", "how to open new bank account"],
+      "response": ["Please go to our bank website and submit the request for create account"],
+      "context": [""]
+    },
+    {
+      "tag": "address_update",
+      "patterns": ["Can I update my address?", "i would like to update my address", "I want to update my current address", "i need to update my current address", "please update my permanent address", "i would like to update my permanent address","how to update current and permanent address?"],
+      "response": ["Please go to profile\n click on settings\n click on change address request\n fill in the details and submit the request"],
+      "context": [""]
+    },
+    {
+      "tag": "phone_number_update",
+      "patterns": ["How to update phone number?", "I would like to update my mobile number", "please update my mobile number", "please update my phone number", "i would like to update my phone number", "can I update phone number", "can i update my mobile number?"],
+      "response": ["Please visit our website\n go to profile\n click on mobile change request form\n fill it and submit the request"],
+      "context": [""]
+    },
+    {
+      "tag": "bank_statement",
+      "patterns": ["Download my bank statement", "how to download bank statement?", "how to access bank statement?", "Can I download my bank statement?", "I need bank statement"],
+      "response": ["Please verify account number and statement will be sent to your registered email address"],
+      "context": [""]
+    },
+    {
+      "tag": "personal_loan",
+      "patterns": ["Can I apply for personal loan?", "How can I apply personal loan?", "I need to apply for personal loan?", "what are the interest rates for personal loan?", "how much does the interest rate for personal loan?", "i need details about personal loan"],
+      "response": ["Please go to our website and select personal section\n read the interest rates\n verify the eligibility and apply for loan"],
+      "context": [""]
+    },
+    {
+      "tag": "Home_loan",
+      "patterns": ["how to apply for home loan?", "Can I apply for home loan?", "Am I eligible to apply home loan?", "i need to apply home loan", "I would like to apply for home loan", "what are the interest charges for home loan?", "what is the interest rate for home loan?"],
+      "response": ["Please visit our website and go to home loan section\n read terms and conditions\n submit the request"],
+      "context": [""]
+    },
+    {
+      "tag": "gold_loan",
+      "patterns": ["how to apply for gold loan?", "what is the procedure to apply gold loan?", "Can I apply for gold loan?", "what is the interest rate for gold loan?", "what are the interest charges for gold loan?", "Apply gold loan", "How to appy gold loan?"],
+      "response": ["Please visit our website and go to gold loan section\n read the terms and conditions\n submit request"],
+      "context": [""]
+    },
+    {
+      "tag": "wrong_answer",
+      "patterns": ["that's wrong answer", "that is not correct", "I think it's not correct", "I think it's wrong", "You have given me wrong answer", "You are wrong", "you gave me wrong answer", "you are not correct", "you are wrong", "this is wrong answer"],
+      "response": ["Oh! I am sorry. Please re phrase your query. I will try to answer as best as I can."],
+      "context": [""]
+    },
+    {
+      "tag": "appreciation",
+      "patterns": ["you are great", "You are awesome", "That's fantastic", "that's great", "you are smart", "I love you", "You are savior", "I like you", "You are fantastic", "you are brilliant", "You are wonderful", "you are nice", "This is cool", "that's cool"],
+      "response": ["Thank you. I am happy that I could help"],
+      "context": [""]
+    }
+  ]
+}
